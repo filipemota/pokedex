@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible" content="image/emf=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Spring - Pokemons em Eventos</title>
+</head>
+<body>
+<ul> </ul>
+
+<script type="text/javascript">
+
+    var evtSource = new EventSource('pokemon/events'); //http://localhost:8080/index
+    var eventList = document.querySelector('ul');
+
+        evtSource.onmessage = function(e){
+            var newElement = document.createElement("li");
+
+            newElement.textContent = "Event: " + e.data;
+            eventList.appendChild(newElement);
+        }
+
+
+</script>
+
+</body>
+</html>
