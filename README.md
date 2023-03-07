@@ -1,1 +1,1 @@
-Projeto Pokedex, um emxemplo de Spring e Java; 
+Projeto Pokedex, um exemplo de Spring e Java;
