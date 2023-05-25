@@ -1,1 +1,1 @@
-Projeto Pokedex, um exemplo com Spring Webflux
+# Trilha JS Developer - Pokedex
