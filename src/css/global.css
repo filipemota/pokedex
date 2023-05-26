@@ -5,12 +5,12 @@
 
 @font-face {
     font-family: PokemonSolid;
-    src: url(/public_html/font/PokemonSolid.ttf);
+    src: url(/src/font/PokemonSolid.ttf);
 }
 
 @font-face {
     font-family: PokemonHollow;
-    src: url(/public_html/font/PokemonHollow.ttf);
+    src: url(/src/font/PokemonHollow.ttf);
 }
 
 body {
